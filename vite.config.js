@@ -10,6 +10,7 @@ export default defineConfig({
         ports: path.resolve(__dirname, 'ports.html'),
         lighthouse: path.resolve(__dirname, 'lighthouse.html'),
         examples: path.resolve(__dirname, 'examples.html'),
+        mines: path.resolve(__dirname, 'mines.html'),
       }
     }
   }
