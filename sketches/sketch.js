@@ -1,4 +1,4 @@
-// i might include this viz in my final dashboard, it turned out fabulous
+
 
 function portsSketch(p) {
     let canvasWidth, canvasHeight;
@@ -86,10 +86,6 @@ function portsSketch(p) {
             p.text(depthLabels[index], legendX + 25, legendY + 12);
         }
     }
-
-
-
-
 
 
 
