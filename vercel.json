@@ -1,5 +1,5 @@
 {
-    "version": 1,
+    "version": 2,
     "routes": [
       { "src": "/index", "dest": "/index.html" },
       { "src": "/ports", "dest": "/ports.html" },
