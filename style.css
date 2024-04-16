@@ -26,6 +26,10 @@ h2 {
   text-align: center;
 }
 
+img {
+  border-radius: 5px;
+}
+
 #canvasDivOne,
 #canvasDivTwo,
 #canvasDivThree {

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
     <title>Creative Data Viz</title>
@@ -17,12 +17,18 @@
         <a class="back-link" href="index.html">⬅ Back</a>
     </header>
     <div>
-        <div id="gold-buttons">
-            <button id="landOwnerBtn">Land Owner</button>
-            <button id="escapePotBtn">Escape Potential</button>
-            <button id="hazardLevelBtn">Hazard Level</button>
 
-        </div>
+        <fieldset>
+            <legend>Filter by Ownership:</legend>
+            <label><input type="checkbox" id="chkCrown" checked>Crown</label>
+            <label><input type="checkbox" id="chkPrivate" checked>Private</label>
+        </fieldset>
+        <fieldset>
+            <legend>Filter by Escape Potential:</legend>
+            <label><input type="checkbox" id="chkGood" checked>Good</label>
+            <label><input type="checkbox" id="chkModerate" checked>Moderate</label>
+            <label><input type="checkbox" id="chkPoor" checked>Poor</label>
+        </fieldset>
 
 
         <div id="canvasDivTwo"></div>
