@@ -1,0 +1,10 @@
+{
+    "version": 1,
+    "routes": [
+      { "src": "/index", "dest": "/index.html" },
+      { "src": "/ports", "dest": "/ports.html" },
+      { "src": "/lighthouse", "dest": "/lighthouse.html" },
+      { "src": "/mines", "dest": "/mines.html" }
+    ]
+  }
+  
