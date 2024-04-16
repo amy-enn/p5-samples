@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <title>Creative Data Viz</title>
+</head>
+
+<body>
+
+    <header>
+        <h2>Active Ports in Nova Scotia</h2>
+        <a class="back-link" href="index.html">⬅ Back</a>
+    </header>
+    
+    <div id="canvasDivOne"></div>
+    <div class="description">
+
+        <p>This viz uses data taken from the <a
+            href="https://msi.nga.mil/api/publications/download?key=16694622/SFH00000/Pub150bk.pdf&type=view">PUB150 World Port Index ↗</a>, a database of all active ports in the world, to
+            map the active ports of Nova Scotia to a digital canvas.</p>
+
+            <p>The latitude and longitude coordinates of each port are accurately translated to the canvas using a mapping that adjusts these geographical points to fit within the predefined bounds of the canvas.</p>
+
+        <p>Each port is represented by a circle whose size corresponds to the harbor's relative size. The colors of
+            these circles vary based on the channel depth; lighter shades denote shallower areas, while darker blues
+            show deeper waters. The stroke weight of each circle reflects the tidal range, with thicker borders
+            representing greater tidal variations. A hovering tooltip provides the port's name.</p>
+    </div>
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
