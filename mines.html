@@ -12,28 +12,41 @@
 <body>
     <header>
 
-        
+
         <h2>Abandoned Gold Mines in NS</h2>
         <a class="back-link" href="index.html">⬅ Back</a>
     </header>
-    <div>
-
-        <fieldset>
-            <legend>Filter by Ownership:</legend>
-            <label><input type="checkbox" id="chkCrown" checked>Crown</label>
-            <label><input type="checkbox" id="chkPrivate" checked>Private</label>
-        </fieldset>
-        <fieldset>
-            <legend>Filter by Escape Potential:</legend>
-            <label><input type="checkbox" id="chkGood" checked>Good</label>
-            <label><input type="checkbox" id="chkModerate" checked>Moderate</label>
-            <label><input type="checkbox" id="chkPoor" checked>Poor</label>
-        </fieldset>
-
+    
+    <fieldset>
+        <legend>Filter by Ownership:</legend>
+        <label><input type="checkbox" id="chkCrown" checked>Crown</label>
+        <label><input type="checkbox" id="chkPrivate" checked>Private</label>
+    </fieldset>
+    <fieldset>
+        <legend>Filter by Escape Potential:</legend>
+        <label><input type="checkbox" id="chkGood" checked>Good</label>
+        <label><input type="checkbox" id="chkModerate" checked>Moderate</label>
+        <label><input type="checkbox" id="chkPoor" checked>Poor</label>
+    </fieldset>
+    
+    <div class="mines-page">
 
         <div id="canvasDivTwo"></div>
+        <div class="description">
+            <p>A map viz using a NS Open Data dataset, <a href="https://novascotia.ca/natr/meb/download/dp010.asp">NS
+                    Abandoned Mine Openings ↗</a></p>
+            <p>
+                Toggle between Crown and Private ownership to see the distribution of mines. Filter by escape
+                potential—ranging from Good to Poor—which provides an overview of the safety of the location for a
+                hobbiest
+                prospector.</p>
 
-        <p><a href="https://novascotia.ca/natr/meb/download/dp010.asp">NS Abandoned Mine Openings</a></p>
+            <p>
+                Each mine is represented by a shape based on its escape potential and color-coded according to
+                ownership. Hover over a mine to see its latitude and longitude.</p>
+        </div>
+
+
     </div>
     <script type="module" src="/main.js"></script>
 </body>

@@ -103,6 +103,7 @@ header {
 .description {
   width: 75%;
   font-size: 0.9rem;
+  margin: 0 auto; 
 }
 
 .red {
@@ -119,4 +120,15 @@ header {
   max-width: 700px;
   margin-bottom: 2rem;
   border-radius: 5px;
+}
+
+.mines-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+fieldset {
+  margin-bottom: 1rem;
+  width: 50%;
 }

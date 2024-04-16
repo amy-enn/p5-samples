@@ -8,6 +8,8 @@ function goldMinesSketch(p) {
         canvasHeight = canvasWidth;
         let canvas = p.createCanvas(canvasWidth, canvasHeight);
         canvas.parent('canvasDivTwo');
+        canvas.style('outline', '10px solid #1a1a68');
+        canvas.style('border-radius', '15px');
         p.background(50);
 
         // load data
@@ -21,7 +23,7 @@ function goldMinesSketch(p) {
         drawMines();
         displayTooltip();
     };
-    
+
 
     function drawMines() {
 
