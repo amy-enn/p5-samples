@@ -9,6 +9,7 @@ export default defineConfig({
         main: path.resolve(__dirname, 'index.html'),
         ports: path.resolve(__dirname, 'ports.html'),
         lighthouse: path.resolve(__dirname, 'lighthouse.html'),
+        examples: path.resolve(__dirname, 'examples.html'),
       }
     }
   }
